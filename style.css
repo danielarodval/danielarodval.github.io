@@ -189,7 +189,7 @@
 .start {
 	background: #000000;
 	background: linear-gradient(to right, #161616, #000000);
-	padding: 200px 0;
+	padding: 50px 0 200px 0;
 }
 
 .start__container {
@@ -245,11 +245,11 @@
 
 @media screen and (max-width: 768px){
 	.start__heading{
-		font-size: 60px;
+		font-size: 30px;
 	}
 
 	.start__description{
-		font-size: 40px;
+		font-size: 30px;
 	}
 }
 
@@ -279,7 +279,7 @@
 
 .main__content h1{
 	font-size: 2rem;
-	background-color: red;
+	background-color: royalblue;
 	background-image: linear-gradient(to top, royalblue, dodgerblue);
 	background-size: 100%;
 	-webkit-background-clip: text;
@@ -357,11 +357,11 @@
   width: 100%;
 }
 
-.main__img--container {
+.main__img__container {
   text-align: center;
 }
 
-.main__img--card {
+.main__img__card {
   margin: 10px;
   height: 500px;
   width: 500px;
@@ -398,14 +398,14 @@
     height: 90%;
   }
 
-  .main__img--container {
+  .main__img__container {
     display: flex;
-    justify-content: center;
+	justify-content: center;
   }
 
-  .main__img--card {
-    height: 425px;
-    width: 425px;
+  .main__img__card {
+    height: 400px;
+    width: 400px;
   }
 
   .main__content {
@@ -429,7 +429,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .main__img--card {
+  .main__img__card {
     width: 250px;
     height: 250px;
   }
@@ -455,4 +455,48 @@
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
+}
+
+/* Projects */
+
+.projects {
+	background: #131313;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 5rem 0;
+}
+
+.projects h1 {
+	background-color: royalblue;
+	background-image: linear-gradient(to top, royalblue, dodgerblue);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	margin-bottom: 3rem;
+	font-size: 2.5rem;
+}
+
+.projects__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.projects__card {
+	margin: 10px;
+	height: 425px;
+	width: 300px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	color:#fff;
+	background-image: linear-gradient(to right, royalblue, dodgerblue);
+	transition: 0.3s ease-in;
 }
