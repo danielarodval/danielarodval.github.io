@@ -287,7 +287,7 @@
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	text-transform: uppercase;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 }
 
 .main__content h2{
@@ -302,11 +302,18 @@
 	-moz-text-fill-color: transparent;
 }
 
-.main__content p {
-  margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
+.main__content p{
+	margin-top: 1rem;
+ 	font-size: 1.2rem;
+ 	font-weight: 700;
 }
+
+.main__details {
+	margin-top: 1rem;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
 
 .main__btn {
   font-size: 1.8rem;
