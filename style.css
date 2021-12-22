@@ -496,7 +496,58 @@
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
-	color:#fff;
+	color: aliceblue;
 	background-image: linear-gradient(to right, royalblue, dodgerblue);
 	transition: 0.3s ease-in;
 }
+
+.projects__card h2 {
+	text-align: center;
+}
+
+.projects__card p {
+	text-align: center;
+	margin-top: 24px;
+	font-size: 20px;
+}
+
+.projects__btn {
+	display: flex;
+	justify-content: center;
+	margin-top: 16px
+}
+
+.projects__card button{
+	color: aliceblue;
+	padding: 14px, 24px;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background: #131313;
+	background-size: auto;
+	font-size: 1rem;
+}
+
+.projects__card button:hover {
+	cursor: pointer;
+}
+
+.projects__card:hover {
+	transform: scale(1.075);
+	transition: 0.3s ease-in;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+	.projects__wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.projects__wrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Footer CSS*/
