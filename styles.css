@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Kumbh Sans', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.nav{
+	background: #131313;
+	height: 80px;
+	display: flex;
+	justify-content: CENTER;
+	align-items: center;
+	font-size: 1.2rem;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+.nav__container {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	z-index: 1;
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#nav__logo {
+	background-color: #ff8177;
+	/*Name color, gradient*/
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+.nav__menu {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.nav__item {
+	height: 80px;
+}
+
+.nav__links {
+	color: aliceblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 125px;
+	text-decoration: none;
+	height: 100%;
+	transition: all 0.3s ease;
+}
+
+.nav__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+	widows: 100%;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	height: 100%;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background: blueviolet;
+	background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, blueviolet);
+	background: linear-gradient(to right, #fcb045, #fd1d1d, blueviolet);
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+.nav__links:hover {
+	color: blueviolet;
+	transition: all 0.3s ease;
+}
