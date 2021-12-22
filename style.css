@@ -223,8 +223,8 @@
 .start__description {
 	font-size: 60px;
 	background: blueviolet;
-	/*background: -webkit-linear-gradient(to right, purple, rebeccapurple, blueviolet);
-	background: linear-gradient(to right, purple, rebeccapurple, blueviolet);*/
+	background: -webkit-linear-gradient(to right, royalblue, dodgerblue);
+	background: linear-gradient(to right, royalblue, dodgerblue);
 	background-size: 100%;
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -280,7 +280,7 @@
 .main__content h1{
 	font-size: 2rem;
 	background-color: red;
-	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	background-image: linear-gradient(to top, royalblue, dodgerblue);
 	background-size: 100%;
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -291,10 +291,10 @@
 }
 
 .main__content h2{
-	font-size: 4rem;
+	font-size: 3rem;
 	background: blueviolet;
-	background: -webkit-linear-gradient(to right, purple, rebeccapurple, blueviolet);
-	background: linear-gradient(to right, purple, rebeccapurple, blueviolet);
+	background: -webkit-linear-gradient(to right, royalblue, dodgerblue);
+	background: linear-gradient(to right, royalblue, dodgerblue);
 	background-size: 100%;
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -366,16 +366,18 @@
   height: 500px;
   width: 500px;
   border-radius: 4px;
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  /*background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);*/
+  background-color: royalblue;
 }
 
 .fa-layer-group,
-.fa-users {
-  font-size: 20rem;
+.fa-briefcase {
+  font-size: 14rem;
 }
 
 #card-2 {
