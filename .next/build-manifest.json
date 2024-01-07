@@ -1,5 +1,6 @@
 {
   "polyfillFiles": [
+<<<<<<< HEAD
     "static/chunks/polyfills-e603bef631faf90c.js"
   ],
   "devFiles": [],
@@ -7,10 +8,22 @@
   "lowPriorityFiles": [
     "static/tuaOuNVm8SaCE9DCo1AZH/_buildManifest.js",
     "static/tuaOuNVm8SaCE9DCo1AZH/_ssgManifest.js"
+=======
+    "static/chunks/polyfills.js"
+  ],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
+>>>>>>> 36a90fc6 (git commit -m "changing website to react")
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
+<<<<<<< HEAD
       "static/chunks/webpack-2d6c20b89449f43d.js",
       "static/chunks/framework-71a4ab9bd871b1f2.js",
       "static/chunks/main-fdf56fc4602be5bb.js",
@@ -27,6 +40,21 @@
       "static/chunks/framework-71a4ab9bd871b1f2.js",
       "static/chunks/main-fdf56fc4602be5bb.js",
       "static/chunks/pages/_error-b6491f42fb2263bb.js"
+=======
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
+>>>>>>> 36a90fc6 (git commit -m "changing website to react")
     ]
   },
   "ampFirstPages": []

@@ -1,0 +1,10 @@
+Line 35
+<li class="nav__btn">
+					<a href="#contact" class="button" id="contact">Contact</a>
+				</li>
+
+Line 48
+<button class="main__btn"><a href="#">Word</a></button>
+
+Line 85
+<button class="main__btn"><a href="#">Contact</a></button>
