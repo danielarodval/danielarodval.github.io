@@ -1,16 +1,11 @@
 {
   "name": "danielarodval.github.io",
   "version": "1.0.0",
-<<<<<<< HEAD
   "homepage": "https://www.danrodval.com/",
   "description": "Daniel Rodriguez Portfolio Website",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d docs",
-=======
-  "description": "Daniel Rodriguez Portfolio Website",
-  "scripts": {
->>>>>>> 36a90fc6 (git commit -m "changing website to react")
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "prettier": "prettier -write .",
@@ -29,11 +24,8 @@
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-=======
->>>>>>> 36a90fc6 (git commit -m "changing website to react")
   }
 }
